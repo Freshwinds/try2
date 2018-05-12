@@ -4,15 +4,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	font-family: 'Inconsolata', 'Monaco', monospace;
-	overflow: hidden;
-	margin: 0;
-	color: #9acfea;
-	background: #9acfea;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
 
 .main-wrap {
 	position: relative;
@@ -22,7 +13,6 @@ body {
 	width: 100%;
 	height: 100vh;
 	background-color: #22295f;
-	background-image: url(../img/bg.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 10em;
 	background-size: 75% auto;
@@ -242,7 +232,7 @@ a,
 
 .demo-10 {
 	color: #000000; background-color: #c4d5e0; }
-.demo-10 main { background-color:  #7d7d7d; }
+.demo-10 main { background-url:url(../img/b1.jpg); }
 .demo-10 a, .demo-10 .btn { color: #000; }
 .demo-10 .btn--search-close { color: #5c32f2; }
 

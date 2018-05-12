@@ -51,7 +51,7 @@ app.get('/',function (req,res) {
 app.get('/news/:search',function (req,res) {
     let this_news = req.params.search;
     console.log(1+this_news);
-    req.models.articles.find({news:this_news},function(err,allcontents){
+    req.models.articles.find({news:orm.like("%"+this_news+"%")},function(err,allcontents){
 
         res.json(allcontents);
 
