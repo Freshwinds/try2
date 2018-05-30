@@ -40,7 +40,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 32px;
+  height: 40px;
   overflow: hidden; }
   .timeline-dots-wrap.bottom {
     bottom: -50px; }
@@ -58,14 +58,15 @@
   transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
   .timeline-dots li {
     float: left;
-    width: 50px;
+    width: 100px;
     transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     list-style: none;
     text-align: center;
     overflow: hidden; }
     .timeline-dots li.slide-active button {
-      color: #2972ca;
-      font-size: 15px; }
+      color: #e7f6f7;
+      font-size: 14px;
+      font-weight: bold;}
   .timeline-dots button {
     cursor: pointer;
     border: none;

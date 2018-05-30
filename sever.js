@@ -33,7 +33,7 @@ app.use(orm.express("sqlite:/home/freshwinds/demo/new.db", {
             id:{type:'numnodeber'},
             contents:{type:'text'},
             comments:{type:'text'},
-            order:{type:'number'},
+            order:{type:'text'},
             news:{type:'text'}
 
         });
@@ -50,9 +50,9 @@ app.get('/',function (req,res) {
 
 app.get('/news/:search',function (req,res) {
     let this_news = req.params.search;
-    console.log(1+this_news);
-    req.models.articles.find({news:orm.like("%"+this_news+"%")},function(err,allcontents){
 
+    req.models.articles.find({news:orm.like("%"+this_news+"%")},function(err,allcontents){
+        console.log(allcontents);
         res.json(allcontents);
 
     })
