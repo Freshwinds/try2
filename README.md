@@ -13,4 +13,13 @@
 app.get("/allcontents/:news",function()){
 }
 
+#代码运行说明
+
+##一.需要配置node.js环境
+##二.代码下载后需要进行  npm  install 安装模块
+
+#其他
+
+##开发系统:ubuntu
+
 
