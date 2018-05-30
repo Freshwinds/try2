@@ -18,7 +18,7 @@ app.use(bodyparser.urlencoded({limit:'50mb', extended: true}));
 
 
 //使用orm连接数据库：
-orm.connect('sqlite:/home/freshwinds/demo/new.db ', function(err, db) {
+orm.connect('sqlite:/usr/local/deployment/blue/new.db ', function(err, db) {
     if (err) {
         return console.error('Connection error: ' + err);
     }
@@ -27,7 +27,7 @@ orm.connect('sqlite:/home/freshwinds/demo/new.db ', function(err, db) {
     }
 });
 
-app.use(orm.express("sqlite:/home/freshwinds/demo/new.db", {
+app.use(orm.express("sqlite:/usr/local/deployment/blue/new.db", {
     define: function (db, models, next) {
         models.articles=db.define("articles",{
             id:{type:'numnodeber'},
