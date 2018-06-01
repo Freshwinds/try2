@@ -75,22 +75,25 @@ p {
 
 .textar{
   border: 1px solid #74a9a6;
-  background-color: rgba(102, 169, 169, 0.71);
+  background-color: rgb(102, 169, 169);
   color: #f3eeee;
   width: 331px;
   height: 272px;
+  font-size: 14px;
 
 }
 .tit {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: rgba(82, 187, 255, 0.23);
+  background: url("../img/blue.jpg");
   width: 331px;
+  color:white;
 }
 .comm {
   color: black;
   padding-top: 20px;
+  text-align: center;
   font-size: larger;
 }
 
@@ -189,7 +192,7 @@ p {
 .timeline-detail-list {
   margin: 10px;
   padding: 20px;
-  color: #74a2a2; }
+  color: rgb(6, 83, 135); }
 .timeline-detail-list ul{
     margin-bottom: 0.4rem;
  }

@@ -67,7 +67,7 @@ function change_text() {
 									<textarea class="textar">${ans[i].contents}</textarea>
 								</div>
 								<div class="timeline-detail">
-								<div class="comm">&lt;-社交媒体摘要</div>
+								<div class="comm">社交媒体摘要</div>
 									<ul class="timeline-detail-list"> `;
                     for(let j=0;j<comments.length;j++)
                     {   str+= `<li>${comments[j]}</li> `}
@@ -84,7 +84,7 @@ function change_text() {
 									<textarea class="textar">${ans[i].contents}</textarea>
 								</div>
 								<div class="timeline-detail">
-								<div class="comm">&lt;-社交媒体摘要</div>
+								<div class="comm">社交媒体摘要</div>
 									<ul class="timeline-detail-list"> `;
             for(let j=0;j<comments.length;j++)
             {   str+= `<li>${comments[j]}</li> `}
